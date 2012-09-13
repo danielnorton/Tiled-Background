@@ -6,8 +6,9 @@
 //  Copyright (c) 2012 Daniel Norton. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
 @interface GBViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIImageView *background;
 
 @end
