@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'gradientback' target in the 'gradientback' project
+// Prefix header for all source files of the 'tileback' target in the 'tileback' project
 //
 
 #import <Availability.h>

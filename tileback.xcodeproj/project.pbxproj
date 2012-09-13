@@ -33,14 +33,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BC2A18415D0BDEA003A3284 /* gradientback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gradientback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC2A18415D0BDEA003A3284 /* tileback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tileback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC2A18815D0BDEA003A3284 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BC2A18A15D0BDEA003A3284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BC2A18C15D0BDEA003A3284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9BC2A19015D0BDEA003A3284 /* gradientback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gradientback-Info.plist"; sourceTree = "<group>"; };
+		9BC2A19015D0BDEA003A3284 /* tileback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tileback-Info.plist"; sourceTree = "<group>"; };
 		9BC2A19215D0BDEA003A3284 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BC2A19415D0BDEA003A3284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BC2A19615D0BDEA003A3284 /* gradientback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gradientback-Prefix.pch"; sourceTree = "<group>"; };
+		9BC2A19615D0BDEA003A3284 /* tileback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tileback-Prefix.pch"; sourceTree = "<group>"; };
 		9BC2A19715D0BDEA003A3284 /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
 		9BC2A19815D0BDEA003A3284 /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
 		9BC2A19B15D0BDEA003A3284 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		9BC2A17915D0BDEA003A3284 = {
 			isa = PBXGroup;
 			children = (
-				9BC2A18E15D0BDEA003A3284 /* gradientback */,
+				9BC2A18E15D0BDEA003A3284 /* tileback */,
 				9BC2A18715D0BDEA003A3284 /* Frameworks */,
 				9BC2A18515D0BDEA003A3284 /* Products */,
 			);
@@ -90,7 +90,7 @@
 		9BC2A18515D0BDEA003A3284 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BC2A18415D0BDEA003A3284 /* gradientback.app */,
+				9BC2A18415D0BDEA003A3284 /* tileback.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9BC2A18E15D0BDEA003A3284 /* gradientback */ = {
+		9BC2A18E15D0BDEA003A3284 /* tileback */ = {
 			isa = PBXGroup;
 			children = (
 				9BC2A1B415D0C287003A3284 /* GBBackgroundImageService.h */,
@@ -114,16 +114,16 @@
 				9BFB41F51601B1F300D465ED /* app */,
 				9BC2A18F15D0BDEA003A3284 /* Supporting Files */,
 			);
-			path = gradientback;
+			path = tileback;
 			sourceTree = "<group>";
 		};
 		9BC2A18F15D0BDEA003A3284 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9BC2A19015D0BDEA003A3284 /* gradientback-Info.plist */,
+				9BC2A19015D0BDEA003A3284 /* tileback-Info.plist */,
 				9BC2A19115D0BDEA003A3284 /* InfoPlist.strings */,
 				9BC2A19415D0BDEA003A3284 /* main.m */,
-				9BC2A19615D0BDEA003A3284 /* gradientback-Prefix.pch */,
+				9BC2A19615D0BDEA003A3284 /* tileback-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BC2A18315D0BDEA003A3284 /* gradientback */ = {
+		9BC2A18315D0BDEA003A3284 /* tileback */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BC2A1A515D0BDEA003A3284 /* Build configuration list for PBXNativeTarget "gradientback" */;
+			buildConfigurationList = 9BC2A1A515D0BDEA003A3284 /* Build configuration list for PBXNativeTarget "tileback" */;
 			buildPhases = (
 				9BC2A18015D0BDEA003A3284 /* Sources */,
 				9BC2A18115D0BDEA003A3284 /* Frameworks */,
@@ -176,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = gradientback;
-			productName = gradientback;
-			productReference = 9BC2A18415D0BDEA003A3284 /* gradientback.app */;
+			name = tileback;
+			productName = tileback;
+			productReference = 9BC2A18415D0BDEA003A3284 /* tileback.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Daniel Norton";
 			};
-			buildConfigurationList = 9BC2A17E15D0BDEA003A3284 /* Build configuration list for PBXProject "gradientback" */;
+			buildConfigurationList = 9BC2A17E15D0BDEA003A3284 /* Build configuration list for PBXProject "tileback" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BC2A18315D0BDEA003A3284 /* gradientback */,
+				9BC2A18315D0BDEA003A3284 /* tileback */,
 			);
 		};
 /* End PBXProject section */
@@ -329,9 +329,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "gradientback/gradientback-Prefix.pch";
-				INFOPLIST_FILE = "gradientback/gradientback-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "tileback/tileback-Prefix.pch";
+				INFOPLIST_FILE = "tileback/tileback-Info.plist";
+				PRODUCT_NAME = tileback;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -340,9 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "gradientback/gradientback-Prefix.pch";
-				INFOPLIST_FILE = "gradientback/gradientback-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "tileback/tileback-Prefix.pch";
+				INFOPLIST_FILE = "tileback/tileback-Info.plist";
+				PRODUCT_NAME = tileback;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BC2A17E15D0BDEA003A3284 /* Build configuration list for PBXProject "gradientback" */ = {
+		9BC2A17E15D0BDEA003A3284 /* Build configuration list for PBXProject "tileback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BC2A1A315D0BDEA003A3284 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BC2A1A515D0BDEA003A3284 /* Build configuration list for PBXNativeTarget "gradientback" */ = {
+		9BC2A1A515D0BDEA003A3284 /* Build configuration list for PBXNativeTarget "tileback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BC2A1A615D0BDEA003A3284 /* Debug */,

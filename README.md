@@ -1,0 +1,2 @@
+# Tile Back
+Demonstrates tiling a background image to fit any form factor. The primary files of interest are **GBBackgroundImageService.h** and **GBBackgroundImageService.m**. The rest of the project simply demonstrates the service.
